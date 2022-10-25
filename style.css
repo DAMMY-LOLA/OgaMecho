@@ -241,8 +241,7 @@ input:invalid {
     .logos {
         display: flex;
         flex-direction: row;
-        align-items: flex-end;
-        align-self: stretch;
+        align-items: center;
         gap: 10px;
     }
 
@@ -297,6 +296,11 @@ input:invalid {
         align-items: flex-start;
         border-radius: 8px 0px;
         background: #FFFFFF;
+    }
+
+    .test-img1 {
+        width: 364px;
+        height: 238px;
     }
 
     .test-content {
