@@ -150,6 +150,15 @@ input:invalid {
     background-color: #FCFCFD;
 }
 
+.advert {
+    background: #FFFFFF;
+}
+
+.advert .container {
+    background: linear-gradient(99.12deg, rgba(66, 0, 255, 0.99) -45.12%, #37E2D5 180.88%);
+    margin-top: 13em;
+}
+
 @media screen and (min-width: 1024px) {
     .navbar {
         padding: 1rem 7rem;
@@ -327,6 +336,92 @@ input:invalid {
         line-height: 150%;
         text-align: center;
         align-self: stretch;
+        color: #5F547C;
+    }
+
+    .advert .container {
+        display: flex;
+        flex-direction: row;
+        padding: 0 7rem;
+    }
+
+    .advert-img {
+        width: 552px;
+        height: 693px;
+        margin-top: -10.54em;
+    }
+
+    .advert-content {
+        display: flex;
+        flex-direction: column;
+        align-items: flex-start;
+        justify-content: center;
+        gap: 16px;
+        margin-top: 3em;
+    }
+
+    .advert-title {
+        font-weight: 700;
+        font-size: 52px;
+        line-height: 120%;
+        color: #FFFFFF;
+    }
+
+    .advert-text {
+        font-weight: 400;
+        font-size: 28px;
+        line-height: 150%;
+        color: #FFFFFF;
+    }
+
+    .proof .container {
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        padding: 3rem 7rem 2rem 7rem;
+        gap: 48px;
+        background: #FFFFFF;
+    }
+
+    .proof-title {
+        font-weight: 700;
+        font-size: 40px;
+        line-height: 120%;
+        text-align: center;
+        color: #011716;
+    }
+
+    .proof-articles {
+        display: flex;
+        flex-direction: row;
+        align-items: flex-start;
+        gap: 24px;
+    }
+
+    .proof-article {
+        display: flex;
+        flex-direction: column;
+        align-items: flex-start;
+        gap: 24px;
+    }
+
+    .safety-check {
+        width: 64px;
+        height: 64px;
+    }
+
+    .proof-heading {
+        font-weight: 700;
+        font-size: 20px;
+        line-height: 24px;
+        color:  #011716;
+    }
+
+    .proof-text {
+        font-weight: 400;
+        font-size: 24px;
+        line-height: 150%;
         color: #5F547C;
     }
 }
