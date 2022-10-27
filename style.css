@@ -528,7 +528,6 @@ input:invalid {
         padding: 64px 156px 0px 156px;
         gap: 120px;
         width: 1440px;
-        height: 388px;
     }
 
     .footer .container {
@@ -538,7 +537,6 @@ input:invalid {
         align-items: center;
         gap: 32px;
         width: 1128px;
-        height: 260px;
     }
 
     .footer-box-grid {
@@ -615,7 +613,7 @@ input:invalid {
     }
 
     hr {
-        margin: 0px 8rem 0 9rem;
+        margin: 0px 8rem 0px 9rem;
     }
 
     .footer-cta {
