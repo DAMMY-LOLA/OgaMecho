@@ -176,6 +176,7 @@ input:invalid {
     .hero-content {
         width: 335px;
         height: 205px;
+        padding: 1rem 1.5rem;
     }
 
     .hero-title {
@@ -257,7 +258,7 @@ input:invalid {
     }
 
     .About .container {
-        padding: 1.5rem 2.5rem 1.5rem 2rem;
+        padding: 1rem 1.5rem;
     }
 
     .about-banner {
