@@ -300,17 +300,197 @@ input:invalid {
         font-weight: 700;
         font-size: 16px;
         line-height: 19px;
-        letter-spacing: 1px;v
+        letter-spacing: 1px;
     }
 
-.mob-about-text {
-    width: 335px;
-    height: 264px;
-    font-weight: 400;
-    font-size: 18px;
-    line-height: 24px;
-    color: #5F547C;
-}
+    .mob-about-text {
+        width: 335px;
+        height: 264px;
+        font-weight: 400;
+        font-size: 18px;
+        line-height: 24px;
+        color: #5F547C;
+    }
+
+    .test-container {
+        display: flex;
+        flex-direction: column;
+        align-items: flex-start;
+        padding: 32px 20px;
+        gap: 16px;
+        width: 375px;
+        height: 1281px;
+    }
+
+    .test {
+        display: flex;
+        flex-direction: column;
+        align-items: flex-start;
+        padding: 0px;
+        gap: 16px;
+        width: 335px;
+        height: 395px;
+        background: #FFFFFF;
+        border-radius: 8px;
+    }
+
+    .test-img {
+        width: 335px;
+        height: 235px;
+        background: linear-gradient(0deg, rgba(0, 103, 162, 0.2), rgba(0, 103, 162, 0.2));
+        border-radius: 8px 8px 0px 0px;
+    }
+
+    .test-content {
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: flex-start;
+        padding: 0px 16px 16px;
+        gap: 8px;
+        width: 335px;
+        height: 144px;
+    }
+
+    .test-title {
+        width: 303px;
+        height: 24px;
+        font-weight: 700;
+        font-size: 20px;
+        line-height: 24px;
+        text-align: center;
+        color: #011716;
+    }
+
+    .test-text {
+        width: 303px;
+        height: 96px;
+        font-weight: 400;
+        font-size: 16px;
+        line-height: 150%;
+        text-align: center;
+        letter-spacing: 0.01em;
+        color: #5F547C;
+    }
+
+    .advert .container {
+        display: flex;
+        flex-direction: column-reverse;
+        /*width: 375px;*/
+        height: 529px;
+        margin-top: 8rem;
+    }
+
+    .advert-content {
+        display: flex;
+        flex-direction: column;
+        align-items: flex-start;
+        padding: 0px;
+        gap: 16px;
+        width: 335px;
+        height: 142px;
+    }
+
+    .advert-title {
+        width: 335px;
+        height: 78px;
+        font-weight: 700;
+        font-size: 32px;
+        line-height: 39px;
+        color: #FFFFFF;
+        align-self: stretch;
+    }
+
+    .advert-text {
+        width: 335px;
+        height: 48px;
+        font-weight: 400;
+        font-size: 16px;
+        line-height: 150%;
+        letter-spacing: 0.01em;
+        color: #FCFCFC;
+    }
+
+    .proof .container {
+        display: flex;
+        flex-direction: column;
+        align-items: flex-start;
+        padding: 32px 0px;
+        gap: 24px;
+        width: 335px;
+        height: 766px
+    }
+
+    .proof-title {
+        width: 335px;
+        height: 78px;
+        font-weight: 700;
+        font-size: 32px;
+        line-height: 39px;
+        text-align: center;
+        color: #011716;
+    }
+
+    .proof-articles {
+        display: flex;
+        flex-direction: column;
+        align-items: flex-start;
+        padding: 0px;
+        gap: 24px;
+        width: 335px;
+        height: 600px;
+        
+    }
+
+    .proof-article {
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        padding: 0px;
+        gap: 16px;
+        width: 335px;
+        height: 184px;
+    }
+
+    .safety-check {
+        width: 35px;
+        height: 35px;
+    }
+
+    .proof-content {
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: flex-start;
+        padding: 0px;
+        gap: 8px;
+        width: 335px;
+        height: 104px;
+    }
+
+    .proof-heading {
+        width: 335px;
+        height: 24px;
+        font-weight: 700;
+        font-size: 20px;
+        line-height: 24px;
+        text-align: center;
+        color: #011716;
+        align-self: stretch;
+    }
+
+    .proof-text {
+        width: 335px;
+        height: 72px;
+        font-weight: 400;
+        font-size: 16px;
+        line-height: 150%;
+        text-align: center;
+        letter-spacing: 0.01em;
+        color: #5F547C;
+        align-self: stretch;
+    }
     
 }
 
