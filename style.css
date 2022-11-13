@@ -155,28 +155,28 @@ input:invalid {
     margin-top: 13em;
 }
 
-@media screen and (min-width: 320px) and (max-width: 480px) {
+@media screen and (min-width: 320px) and (max-width: 480px)  {
     .hero-section .container {
         display: flex;
         flex-direction: column;
-        align-items: flex-start;
+        align-items: center;
         margin-bottom: 2rem;
     }
 
     .hero-content-wrapper {
         display: flex;
         flex-direction: column;
-        align-items: flex-start;
-        padding: 0px;
+        align-items: center;
         gap: 24px;
-       width: 335px;
-       height: 341px
+        width: 335px;
+        height: 341px
     }
 
     .hero-content {
         width: 335px;
         height: 205px;
-        padding: 1rem 1.5rem;
+        padding: 0px;
+        margin: 0px auto;
     }
 
     .hero-title {
@@ -228,12 +228,15 @@ input:invalid {
     .social-proof {
         background: #FCFCFC;
         margin: 1.5rem 2rem;
+        width: 335px;
+        height: 232px;
     }
 
     .social-proof .container {
         display: flex;
         flex-direction: column;
-        align-items: flex-start;
+        align-items: center;
+        margin: 0px auto;
         gap: 8px;
         width: 319px;
         /*height: 168px;*/
@@ -247,18 +250,20 @@ input:invalid {
         text-align: center;
         color: #0D0726;
         margin-top: 2em;
-    }
+    }   
 
-    .logos {
+    .logos-mobile {
         display: flex;
-        width: 319px;
-        height: 112px;
-        overflow-wrap: break-word;
+        flex-wrap: wrap;
         gap: 16px;
+    }
+    
+    .logos {
+        display: none;
     }
 
     .About .container {
-        padding: 1rem 1.5rem;
+        margin: 1rem 2rem;
     }
 
     .about-banner {
@@ -315,8 +320,8 @@ input:invalid {
     .test-container {
         display: flex;
         flex-direction: column;
-        align-items: flex-start;
-        padding: 32px 20px;
+        align-items: center;
+        margin: 32px auto;
         gap: 16px;
         width: 375px;
         height: 1281px;
@@ -325,13 +330,14 @@ input:invalid {
     .test {
         display: flex;
         flex-direction: column;
-        align-items: flex-start;
+        align-items: center;
         padding: 0px;
         gap: 16px;
         width: 335px;
         height: 395px;
         background: #FFFFFF;
         border-radius: 8px;
+        margin-top: 1rem;
     }
 
     .test-img {
@@ -384,8 +390,8 @@ input:invalid {
     .advert-content {
         display: flex;
         flex-direction: column;
-        align-items: flex-start;
-        padding: 0px;
+        align-items: center;
+        margin: 1em auto;
         gap: 16px;
         width: 335px;
         height: 142px;
@@ -405,17 +411,21 @@ input:invalid {
         width: 335px;
         height: 48px;
         font-weight: 400;
-        font-size: 16px;
+        font-size: 18px;
         line-height: 150%;
         letter-spacing: 0.01em;
         color: #FCFCFC;
     }
 
+    .advert-img {
+
+    }
+
     .proof .container {
         display: flex;
         flex-direction: column;
-        align-items: flex-start;
-        padding: 32px 0px;
+        align-items: center;
+        margin: 32px auto;
         gap: 24px;
         width: 335px;
         height: 766px
@@ -553,8 +563,8 @@ input:invalid {
     .footer {
         display: flex;
         flex-direction: column;
-        align-items: flex-start;
-        padding: 32px 20px;
+        align-items: center;
+        margin: 32px auto;
         gap: 32px;
         width: 375px;
         height: 438.1px;
@@ -591,7 +601,7 @@ input:invalid {
     }
 
     h4 {
-        width: 98px;
+        width: 99px;
         height: 20px;
         font-weight: 600;
         font-size: 18px;
@@ -796,6 +806,10 @@ input:invalid {
         gap: 10px;
         width: 1128px;
         height: 48px;
+    }
+
+    .logos-mobile {
+        display: none;
     }
 
     .About .container {
