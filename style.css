@@ -263,7 +263,7 @@ input:invalid {
     }
 
     .About .container {
-        margin: 1rem 2rem;
+        margin: 1rem 2.3rem;
     }
 
     .about-banner {
@@ -391,7 +391,7 @@ input:invalid {
         display: flex;
         flex-direction: column;
         align-items: center;
-        margin: 1em auto;
+        margin: 3.7em auto;
         gap: 16px;
         width: 335px;
         height: 142px;
@@ -418,7 +418,11 @@ input:invalid {
     }
 
     .advert-img {
+        display: none;
+    }
 
+    .advert-mobile {
+        margin: 0px 56px;
     }
 
     .proof .container {
@@ -428,7 +432,6 @@ input:invalid {
         margin: 32px auto;
         gap: 24px;
         width: 335px;
-        height: 766px
     }
 
     .proof-title {
@@ -509,7 +512,6 @@ input:invalid {
         align-items: center;
         padding: 32px 20px;
         gap: 24px;
-        width: 375px;
         height: 493px;
         background: #FCFCFC;
     }
@@ -517,7 +519,6 @@ input:invalid {
     .launch .container {
         display: flex;
         flex-direction: column;
-        justify-content: center;
         align-items: center;
         padding: 32px 16px;
         gap: 24px;
@@ -539,7 +540,7 @@ input:invalid {
     }
 
     .launch-h3 {
-        width: 303px;
+        width: 295px;
         height: 117px;
         font-weight: 700;
         font-size: 32px;
@@ -919,6 +920,10 @@ input:invalid {
         width: 552px;
         height: 693px;
         margin-top: -10.54em;
+    }
+
+    .advert-mobile {
+        display: none;
     }
 
     .advert-content {
