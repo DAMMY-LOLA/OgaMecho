@@ -423,6 +423,8 @@ input:invalid {
 
     .advert-mobile {
         margin: 0px 56px;
+        width: 263px;
+        height: 331px;
     }
 
     .proof .container {
