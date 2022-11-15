@@ -382,7 +382,7 @@ input:invalid {
     .advert .container {
         display: flex;
         flex-direction: column-reverse;
-        width: 385px;
+        width: 480px;
         height: 510px;
         margin-top: 7rem;
     }
