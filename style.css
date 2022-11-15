@@ -393,7 +393,7 @@ input:invalid {
         display: flex;
         flex-direction: column;
         align-items: center;
-        margin: 3.7em 1em;
+        margin: 3.7em auto;
         gap: 16px;
         width: 335px;
         height: 142px;
