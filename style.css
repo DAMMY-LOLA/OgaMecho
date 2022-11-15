@@ -385,6 +385,8 @@ input:invalid {
         /*width: 375px;*/
         height: 481px;
         margin-top: 8rem;
+        margin-left: auto;
+        margin-right: auto;
     }
 
     .advert-content {
