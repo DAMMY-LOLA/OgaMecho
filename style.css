@@ -155,7 +155,7 @@ input:invalid {
     margin-top: 13em;
 }
 
-@media screen and (min-width: 320px) and (max-width: 480px)  {
+@media screen /*and (min-width: 320px)*/ and (max-width: 480px)  {
     .hero-section .container {
         display: flex;
         flex-direction: column;
@@ -227,7 +227,7 @@ input:invalid {
 
     .social-proof {
         background: #FCFCFC;
-        margin: 1.5rem 2rem;
+        margin: 1.5rem auto;
         width: 335px;
         height: 232px;
     }
@@ -263,7 +263,7 @@ input:invalid {
     }
 
     .About .container {
-        margin: 1rem 2.3rem;
+        margin: 1rem 4rem;
     }
 
     .about-banner {
